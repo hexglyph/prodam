@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -15,9 +16,9 @@ export default function Home() {
           </div>
         </div>
         <div className="flex w-full justify-start items-center">
-          <a href="/" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Projetos</a>
-          <a href="/vue" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Vue</a>
-          <a href="/next" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Next</a>
+          <Link href="/" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Projetos</Link>
+          <Link href="/vue" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Vue</Link>
+          <Link href="/next" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Next</Link>
         </div>
       </main>
 
