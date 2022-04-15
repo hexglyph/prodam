@@ -16,9 +16,9 @@ export default function Home() {
           </div>
         </div>
         <div className="flex w-full justify-start items-center">
-          <Link href="/" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Projetos</Link>
-          <Link href="/vue" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Vue</Link>
-          <Link href="/next" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Next</Link>
+          <Link href="https://prodam.dev" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Projetos</Link>
+          <Link href="https://vue.prodam.dev" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Vue</Link>
+          <Link href="https://next.prodam.dev" className="p-2 outline outline-indigo-600 hover:outline-violet-500 rounded-lg bg-indigo-300 hover:bg-indigo-200 m-2">Next</Link>
         </div>
       </main>
 
